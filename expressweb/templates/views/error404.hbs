@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+    {{!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS //  took from google bootstrap4/bootstrap4 get started/Bootstrap 4 CDN --jsDelivr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>pk weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/WhatsApp Image 2022-06-25 at 8.54.16 AM.jpeg" type="image/jpeg"> --}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- <h1> welcome to the static app page </h1>
+    <button class="btn btn-danger "> hello </button> -->
+    {{!-- <div class="container-fluid main_manu">
+        <div class="row">
+            <div class="col-md-10 col-12 max-auto">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><i class="far fa-snowflake"></i> PradeepWeather <i class="far fa-snowflake"></i></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/weather"> weather </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">about us</a>
+                        </li>
+                        
+                    </ul>
+                    
+                    </div>
+                </nav>
+            </div>        
+        </div>            
+    </div> --}}
+    <!-- main-header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 max-auto">
+                <div class="row">
+                    <!-- left-side -div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/error.404.110154135.jpg" alt="pradeep" class="img-fluid" title="pradeep thechnical" >
+                        </figure>
+                    
+                        <p>welcome to pradeep technical world</p>
+                        <h1> {{errorMsg}}</h1>
+                        <a href="/"></a><button> Go  </button></a>
+                    </div>
+                    <!-- right side div -->
+                    
+                        
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code -->
+    <footer>
+        {{>footer}}
+        {{!-- <p>created with heart by pradeep thechnical </p> --}}
+    </footer>    
+</body>
+</html>
